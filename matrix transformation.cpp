@@ -28,9 +28,7 @@ void transpose(int a[m][n],int t[m][n]){
  }
 
 int main(){
-	int a[m][n] = {{1,2,3},
-			   	   {4,5,6},
-				   {7,8,9}};
+	int a[m][n] = {{1,2,3},{4,5,6},{7,8,9}};
 	int t[m][n];
 	int rev[m][n];
 	transpose(a,t);
